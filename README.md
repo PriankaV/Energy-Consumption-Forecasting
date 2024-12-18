@@ -6,12 +6,11 @@ This repository includes data from various sources, such as hourly energy consum
 
 ### Data Sources 📁:
 - **Hourly Energy Consumption Dataset**: A collection of hourly energy consumption data from multiple utilities across different regions.
-- **Household Electric Power Consumption Dataset**: Contains data on power consumption of households over time.
-- **Additional Datasets**: Various datasets related to energy consumption, power generation, and demand.
 
 ### Technologies Used 💻:
 - Python
 - Pandas
+- Numpy
 - Matplotlib/Seaborn (for data visualization)
 - Scikit-learn (for machine learning)
 - Git LFS (for large file storage)
@@ -23,8 +22,5 @@ This repository includes data from various sources, such as hourly energy consum
 - **`Household Electric Power Consumption/`**: Folder containing the `household_power_consumption.txt` file.
 - **`.gitattributes`**: Git LFS configuration file to track large files such as `household_power_consumption.txt`.
 
-## Installation 🛠️
-
-
 ## Results 📊
-
+The energy consumption forecasting model successfully predicted future energy usage trends with high accuracy. By utilizing machine learning techniques, such as Random Forest and Decision Trees, the model was able to identify significant patterns in energy consumption over time. Key performance metrics like RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error) were evaluated to assess the model's performance. These results indicate that the developed model can be effectively used to forecast future energy consumption and help optimize energy resource management. [Read the full FDS report](https://github.com/PriankaV/Energy-Consumption-Forecasting/blob/main/FDS_Report.pdf)
